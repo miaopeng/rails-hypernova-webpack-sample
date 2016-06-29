@@ -1,0 +1,7 @@
+<h1 class="alert alert-info this-works">Server Rendering</h1>
+<%= render_react_component('apps/hello_world/index', @hello_world_props) %>
+<%
+content_for :js do
+  javascript_include_tag 'apps/hello_world/index.public.js'
+end
+%>
