@@ -51,10 +51,9 @@ module.exports = {
 
   alias: {
     // libs: __dirname + '/app/assets/javascripts/libs',
-    // // mods: __dirname + '/app/assets/javascripts/mods',
+    // mods: __dirname + '/app/assets/javascripts/mods',
     // data: __dirname + '/app/assets/javascripts/data',
     // vendor: __dirname + '/vendor/assets/javascripts',
-    // moment: __dirname + '/vendor/assets/javascripts/moment/moment',
   },
 
   externals: {

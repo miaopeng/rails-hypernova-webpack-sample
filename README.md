@@ -1,24 +1,46 @@
-# README
+# Sample Project for Hypernova and Webpack on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Features
+- Hypernova for UniversalJS.
+- Webpack for bundle Javascript code in es2015 and React.
+- Multi apps/pages support.
+- Keep things simple and concise.
 
-Things you may want to cover:
+## Install
 
-* Ruby version
+```sh
+bundle && npm i
+```
 
-* System dependencies
+## Start Servers
 
-* Configuration
+Start Rails Server:
 
-* Database creation
+```sh
+npm start
+```
 
-* Database initialization
+Start Hypernova Server:
 
-* How to run the test suite
+```sh
+npm run hypernova
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Build Javascript
 
-* Deployment instructions
+Build client bundle:
 
-* ...
+```sh
+npm run build
+```
+
+Build server bundle:
+
+```sh
+npm run build:server
+```
+## TODO
+
+- Add Karma and Enzyme for testing
+- Redux support
+- CSS Module support
